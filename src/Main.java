@@ -1,11 +1,16 @@
 public class Main {
     public static void main(String[] args) {
-   short weigh = 7*1000;
-   short lightWeigh = 250;
-   short hardWeigh = 500;
-   int a = weigh/lightWeigh;
-   int b = weigh/hardWeigh;
-   int c = (a+b)/2; //не уверен, что правильно сделал уравнение
-   System.out.println("Дней потребуется при дневной потере 250гр - " + a + ", при дневной потере 500гр - " + b + ", а среднее количество дней равно " + c);
+   int masha = 67760;
+   int denis = 83690;
+   int kristina = 76230;
+   float am = masha+masha*0.1f;
+   float ad = denis+denis*0.1f;
+   float ak = kristina+kristina*0.1f;
+   float bm = am*12-masha*12;
+   float bd = ad*12-denis*12;
+   float bk = ak*12-kristina*12;
+System.out.println("Маша теперь получает " + am + " рублей. Годовой доход вырос на "+ bm + " рублей");
+System.out.println("Денис теперь получает " + ad + " рублей. Годовой доход вырос на "+ bd + " рублей");
+System.out.println("Кристина теперь получает " + ak + " рублей. Годовой доход вырос на "+ bk + " рублей");
     }
 }
