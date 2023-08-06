@@ -1,10 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-       int a = 27897;
-       byte b = 67;
-       short c = 569;
-       long d = 987678965549L;
-       float e = 27.12f;
-       double f = 2.786;
+       byte l = 23;
+       byte a = 27;
+       byte e = 30;
+       short b = 480;
+       int an = (b / (l+a+e)); //Здесь почему-то попросил меня поставить int, нужно разобраться, я хотел short
+System.out.println("На каждого ученика рассчитано" + an + "листов бумаги"); //нужно узнать, как сделать в выводе на консоль пробелы
     }
 }
