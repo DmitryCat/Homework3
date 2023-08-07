@@ -6,7 +6,7 @@ public class Main {
    float am = masha+masha*0.1f;
    float ad = denis+denis*0.1f;
    float ak = kristina+kristina*0.1f;
-   float bm = am*12-masha*12;
+   float bm = am*12-masha*2;
    float bd = ad*12-denis*12;
    float bk = ak*12-kristina*12;
 System.out.println("Маша теперь получает " + am + " рублей. Годовой доход вырос на "+ bm + " рублей");
